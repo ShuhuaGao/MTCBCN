@@ -5,7 +5,9 @@ Code for the paper "Minimum-Time Control of Boolean Control Networks: A Fast Gra
 ## File organization
 
 - The source code of our algorithms is provided as a [Julia](https://julialang.org/) package in *./code/MCT*.
-- The examples in the paper are presented in *./script/example*.
+- The examples in the paper are presented in the [script/example](./script/example) folder.
+- T-LGL network is studied in the [script/T-LGL](./script/T-LGL) folder.
+- In particular, the supplementary document of the T-LGL network is presented at [sm.pdf](./script/T-LGL/sm.pdf).
 - The code has been tested with Julia 1.9.1.
 
 ## How to run the examples
@@ -18,8 +20,8 @@ Code for the paper "Minimum-Time Control of Boolean Control Networks: A Fast Gra
    ```julia
    include("example/example.jl")
    ```
-   for examples in the paper, or
+   to check examples in the paper; or
    ```julia
    include("T-LGL/T_LGL.jl")
    ```
-   for an additional biological network example presented in the supplementary document at [T-LGL](./script/T-LGL)
+   for an additional biological network example, i.e., the T-LGL network. 
