@@ -6,6 +6,7 @@ Code for the paper "Minimum-Time Control of Boolean Control Networks: A Fast Gra
 
 - The source code of our algorithms is provided as a [Julia](https://julialang.org/) package in *./code/MCT*.
 - The examples in the paper are presented in *./script/example*.
+- The code has been tested with Julia 1.9.1.
 
 ## How to run the examples
 
@@ -15,5 +16,10 @@ Code for the paper "Minimum-Time Control of Boolean Control Networks: A Fast Gra
 3. Return to REPL normal mode, change into the *example* folder in Julia REPL, and run
 
    ```julia
-   include("example.jl")
+   include("example/example.jl")
    ```
+   for examples in the paper, or
+   ```julia
+   include("T-LGL/T_LGL.jl")
+   ```
+   for an additional biological network example presented in the supplementary document at [T-LGL](./script/T-LGL)
